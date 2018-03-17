@@ -1,0 +1,33 @@
+package genericLibrary;
+
+public class fromatString {
+	static String mergeStrings(String a, String b) {
+	    if(a.isEmpty() || b.isEmpty() || a.length()<1 || a.length()>25000 || b.length()>25000 || b.length()<1 )
+				return "";
+	    
+	    StringBuffer finalString= new StringBuffer("");
+	        
+			int finalLength=0;
+			int aLength=a.length();
+			int bLength=b.length();
+			if(aLength>bLength)
+				finalLength=aLength;
+			else
+				finalLength=bLength;
+			for(int i=0;i<finalLength;i++){
+				if(i<aLength && i<bLength)
+					finalString=finalString.append(a.charAt(i)+b.charAt(i));
+				else if(i>=aLength && i<bLength)
+					finalString=finalString.append(b.charAt(i));
+					else if(i>=bLength && i<aLength)
+						finalString=finalString.append(a.charAt(i));
+		   return finalString.toString();
+	    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a="asdfg";
+		for (int i=0;i<a.length();i++)
+		{
+	}
+
+}
