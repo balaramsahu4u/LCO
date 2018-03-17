@@ -29,3 +29,7 @@
 2018-01-10 08:30:23,993 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-01-10 08:30:23,995 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2018-03-17 18:18:39,535 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2018-03-17 20:48:06,836 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-17 20:48:07,022 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-03-17 20:48:07,035 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-03-17 20:48:07,037 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
